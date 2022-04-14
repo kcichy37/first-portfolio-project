@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: 'roboto slab', sans-serif;
+    font-weight: 400; 
+}
+
+#logo{
+    font-family: 'merriweather', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+#menu{
+    font-size: 150%;
+    text-align: center;
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+    width:33%;
+    background-color: black;
+
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
