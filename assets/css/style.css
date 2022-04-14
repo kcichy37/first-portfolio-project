@@ -15,7 +15,7 @@ body{
 
 #logo{
     font-family: 'merriweather', sans-serif;
-    font-size: 300%;
+    font-size: 500%;
     font-weight: 600;
     text-align: center;
     margin: 25px 0 25px 0;
@@ -57,18 +57,45 @@ body{
 /* About us */
 
 #about-us{
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
     margin-top: 50px;
 }
 
+
 #bgimg{
     background: url('../images/indoor-tennis.jpg') no-repeat center center;
     height: 600px;
     width: 100%;
     opacity: 0.9;
+}
+
+.text-box{
+    width: 300px;
+    height: 200px;
+    padding: 10px 100px 200px 0;
+    background-color: rgba(64, 46, 50, 1);
+    top: 10px;
+    left: 100px;
+    position: absolute;
+    color:#00c0a2;
+    text-align: center;
+    box-shadow: 25px 25px 10px;
+  }
+
+
+.text-box h2{
+    font-size: 200%;
+    text-align: center;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.text-box p{
+    padding-left: 80px;
 }
 
 
