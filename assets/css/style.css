@@ -36,11 +36,11 @@ body{
 
 #menu a{
     text-decoration: none;
-    color: white;
+    color: #f9f9f9;
 }
 
 #menu a:hover{
-    background-color: #00c0a2;
+    background-color: #baa89b;
     color: black;
     width: 33%;
     display: inline-block;
@@ -51,7 +51,7 @@ body{
 
 .active{
     text-decoration: underline;
-    color: white;
+    color: #f9f9f9;
 }
 
 /* About us */
@@ -65,28 +65,29 @@ body{
 }
 
 
-#bgimg{
+#aboutbg{
     background: url('../images/indoor-tennis.jpg') no-repeat center center;
     height: 600px;
     width: 100%;
     opacity: 0.9;
 }
 
-.text-box{
+.about-text-box{
     width: 300px;
     height: 200px;
     padding: 10px 100px 200px 0;
-    background-color: rgba(64, 46, 50, 1);
+    background-color: black;
     top: 10px;
     left: 100px;
     position: absolute;
-    color:#00c0a2;
+    color:#baa89b;
     text-align: center;
     box-shadow: 25px 25px 10px;
+    border-radius: 10px;
   }
 
 
-.text-box h2{
+.about-text-box h2{
     font-size: 200%;
     text-align: center;
     padding-left: 70px;
@@ -94,8 +95,38 @@ body{
     text-decoration: underline;
 }
 
-.text-box p{
+.about-text-box p{
     padding-left: 80px;
 }
 
+/* What we offer */
 
+#what-we-offer{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -50px;
+}
+
+#offerbg{
+    background: url('../images/what-we-offerbg.webp') no-repeat center center;
+    height: 800px;
+    width: 100%;
+    background-size: contain;
+}
+
+.offer-text-box{
+    width: 300px;
+    height: 100px;
+    padding: 100px 100px 200px 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 650px;
+    bottom: 325px;
+    position: absolute;
+    color:#baa89b;
+    text-align: center;
+    
+  }
+
+ 
