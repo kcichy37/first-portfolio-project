@@ -159,4 +159,17 @@ body{
     color:#f9f9f9;
 }
 
- 
+ /* Book button */
+ .book-button{
+     width:175px;
+     height:75px;
+     background-color: #e37e00;
+     position: absolute;
+     left: 42.5%;
+     bottom: 11%;
+     font-size: 150%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+    font-family: 'roboto slab', sans-serif;
+    text-transform: uppercase; 
+ }
