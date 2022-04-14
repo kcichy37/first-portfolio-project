@@ -49,3 +49,26 @@ body{
     transition: background-color ease-in-out 0.5s;
 }
 
+.active{
+    text-decoration: underline;
+    color: white;
+}
+
+/* About us */
+
+#about-us{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+}
+
+#bgimg{
+    background: url('../images/indoor-tennis.jpg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+
