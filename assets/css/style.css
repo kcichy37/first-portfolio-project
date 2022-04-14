@@ -29,11 +29,20 @@ body{
     display: inline-block;
     width:33%;
     background-color: black;
-
+    border-radius: 50px;
 }
 
 #menu a{
     text-decoration: none;
     color: white;
+}
+
+#menu a:hover{
+    background-color: #00c0a2;
+    color: black;
+    width: 33%;
+    display: inline-block;
+    width: 100%;
+    border-radius: 50px;
 }
 
