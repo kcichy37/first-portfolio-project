@@ -75,7 +75,7 @@ body{
 .about-text-box{
     width: 300px;
     height: 200px;
-    padding: 10px 100px 200px 0;
+    padding: 10px 100px 300px 0;
     background-color: black;
     top: 10px;
     left: 100px;
@@ -93,10 +93,16 @@ body{
     padding-left: 70px;
     padding-bottom: 10px;
     text-decoration: underline;
+    color: white;
 }
 
 .about-text-box p{
-    padding-left: 80px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 110%;
+    width: 100%;
 }
 
 /* What we offer */
@@ -111,22 +117,42 @@ body{
 
 #offerbg{
     background: url('../images/what-we-offerbg.webp') no-repeat center center;
-    height: 800px;
+    height: 700px;
     width: 100%;
-    background-size: contain;
+    background-size: 75%;
 }
 
 .offer-text-box{
     width: 300px;
-    height: 100px;
-    padding: 100px 100px 200px 100px;
-    background-color: rgba(0, 0, 0, 0.8);
+    height: 300px;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
     left: 650px;
-    bottom: 325px;
+    bottom: 100px;
     position: absolute;
-    color:#baa89b;
+    color:white;
     text-align: center;
-    
+    border-radius: 10px;
   }
+
+.text{
+    margin-top: -100px;
+}
+
+.offer-text-box h2{
+    font-size: 200%;
+    text-decoration: underline;
+    color: white;
+    padding: 25px 0 25px 0;
+}
+
+.offer-text-box p{
+    font-size: 140%;
+    width: 100%;
+}
+
+.list-border{
+    padding: 20px 0 20px 0;
+}
 
  
