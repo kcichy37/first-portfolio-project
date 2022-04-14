@@ -40,7 +40,7 @@ body{
 }
 
 #menu a:hover{
-    background-color: #baa89b;
+    background-color: #e37e00;
     color: black;
     width: 33%;
     display: inline-block;
@@ -80,7 +80,7 @@ body{
     top: 10px;
     left: 100px;
     position: absolute;
-    color:#baa89b;
+    color:#f9f9f9;
     text-align: center;
     box-shadow: 25px 25px 10px;
     border-radius: 10px;
@@ -176,4 +176,5 @@ body{
 
  .book-button:hover{
     transform: scale(1.2);
+    transition: transform .2s;
  }
