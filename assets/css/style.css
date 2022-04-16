@@ -54,6 +54,13 @@ body{
     color: #f9f9f9;
 }
 
+/* container */
+
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* About us */
 
 #about-us{
