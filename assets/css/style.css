@@ -109,7 +109,7 @@ body{
 /* What we offer */
 
 #what-we-offer{
-    height: 700px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -166,14 +166,14 @@ body{
 
  /* Book button */
  .book-button{
-     width:175px;
-     height:75px;
-     background-color: #e37e00;
-     position: absolute;
-     top: 475px;
-     left: 42.3%;
-     bottom: 11%;
-     font-size: 150%;
+    width:175px;
+    height:75px;
+    background-color: #e37e00;
+    position: absolute;
+    top: 475px;
+    left: 42.3%;
+    bottom: 11%;
+    font-size: 150%;
     border-radius: 15px;
     box-shadow: 10px 10px 10px;
     font-family: 'roboto slab', sans-serif;
@@ -194,3 +194,36 @@ body{
     position: relative;
     margin-top: -50px;
  }
+
+ .opening-text-box{
+    width: 300px;
+    height: 300px;
+    padding: 50;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    float: right;
+    margin-top: 0;
+    right: 450px;
+    top: 125px;
+ }
+
+ .opening-text-box table{
+    color: white;
+ }
+
+ .opening-text-box h2{
+    font-size: 200%;
+    text-decoration: underline;
+    color: white;
+    padding: 25px 0 5px 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
