@@ -330,12 +330,33 @@ footer{
 .sportbox{
     height: 300px;
     width: 75%;
-    border: 2px solid black;
     border-radius: 20px;
     text-align: center;
     background-color: rgba(0,0,0, 0.9);
+    border: 5px solid black;
+    font-family: 'Merriweather', sans-serif;
     
     margin: auto;
     margin-bottom: 75px;
     margin-top: 75px;
+}
+
+.sportbox h2{
+    color: white;
+    margin-top: -275px;
+    text-decoration: underline;
+}
+
+
+
+#infootball{
+    background: url("../images/outdoor-pitch.jpg") no-repeat center center;
+    background-size: 126%;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px solid;
+    margin-top: -30px;
+    margin-left: -30px;
+    box-shadow: 5px 5px 5px #e37e00;
 }
