@@ -54,13 +54,6 @@ body{
     color: #f9f9f9;
 }
 
-/* container */
-
-#container{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 /* About us */
 
 #about-us{
@@ -127,6 +120,8 @@ body{
     height: 700px;
     width: 100%;
     background-size: 75%;
+    background-attachment: fixed;
+   
 }
 
 .offer-text-box{
@@ -135,15 +130,17 @@ body{
     padding: 100px;
     background-color: rgba(0, 0, 0, 0.9);
     left: 650px;
-    bottom: 100px;
+    top: 10px;
     position: absolute;
-    color:white;
+    color:black;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px;
   }
 
 .text{
     margin-top: -100px;
+    color: white;
 }
 
 .offer-text-box h2{
@@ -172,7 +169,8 @@ body{
      height:75px;
      background-color: #e37e00;
      position: absolute;
-     left: 42.5%;
+     top: 475px;
+     left: 42.3%;
      bottom: 11%;
      font-size: 150%;
     border-radius: 15px;
