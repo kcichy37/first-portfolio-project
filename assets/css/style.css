@@ -343,14 +343,13 @@ footer{
 
 .sportbox h2{
     color: white;
-    margin-top: -275px;
+    margin-top: -265px;
+    margin-right: 20px;
     text-decoration: underline;
+    float: right;
 }
 
-
-
-#infootball{
-    background: url("../images/outdoor-pitch.jpg") no-repeat center center;
+.sportimg{
     background-size: 126%;
     width: 40%;
     height: 100%;
@@ -358,5 +357,27 @@ footer{
     border: 3px solid;
     margin-top: -30px;
     margin-left: -30px;
+}
+
+.football{
+    background: url("../images/outdoor-pitch.jpg") no-repeat center center;
+    float: left;
     box-shadow: 5px 5px 5px #e37e00;
+}
+
+.badminton{
+    background: url("../images/tennis.jpg") no-repeat center center;
+    float: right;
+    box-shadow: -5px 5px 5px #e37e00;
+}
+
+.squash{
+    background: url("../images/squash.jpg") no-repeat center center;
+    box-shadow: 5px 5px 5px #e37e00;
+}
+
+.table{
+    background: url("../images/table-tennis.jpg") no-repeat center center;
+    float: right;
+    box-shadow: -5px 5px 5px #e37e00;
 }
