@@ -9,6 +9,7 @@
 body{
     font-family: 'roboto slab', sans-serif;
     font-weight: 400; 
+    background-color: rgba(227, 126, 0, 0.03)
 }
 
 /* Logo and Nav*/
@@ -117,7 +118,7 @@ body{
 
 #offerbg{
     background: url('../images/what-we-offerbg.webp') no-repeat center center;
-    height: 700px;
+    height: 1400px;
     width: 100%;
     background-size: 75%;
     background-attachment: fixed;
@@ -182,4 +183,14 @@ body{
  .book-button:hover{
     transform: scale(1.2);
     transition: transform .2s;
+ }
+
+ /* Opening times */
+
+ #opening-times{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -50px;
  }
