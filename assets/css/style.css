@@ -94,7 +94,7 @@ nav{
 #aboutbg{
     background: url('../images/indoor-tennis.jpg') no-repeat center center;
     height: 600px;
-    width: 100%;
+    background-size: 80% 100%;
 }
 
 .about-text-box{
@@ -225,7 +225,7 @@ nav{
     float: right;
     margin-top: 0;
     right: 800px;
-    top: 125px;
+    top: 75px;
  }
 
  .opening-text-box table{
@@ -341,16 +341,14 @@ footer{
     margin-top: 75px;
 }
 
-.sportbox h2{
+.sportboxtext{
     color: white;
     margin-top: -265px;
     margin-right: 20px;
     text-decoration: underline;
-    float: right;
 }
 
 .sportimg{
-    background-size: 126%;
     width: 40%;
     height: 100%;
     border-radius: 20px;
@@ -361,23 +359,27 @@ footer{
 
 .football{
     background: url("../images/outdoor-pitch.jpg") no-repeat center center;
+    background-size: 100% 100%;
     float: left;
     box-shadow: 5px 5px 5px #e37e00;
 }
 
 .badminton{
     background: url("../images/tennis.jpg") no-repeat center center;
+    background-size: 100% 100%;
     float: right;
     box-shadow: -5px 5px 5px #e37e00;
 }
 
 .squash{
     background: url("../images/squash.jpg") no-repeat center center;
+    background-size: 100% 100%;
     box-shadow: 5px 5px 5px #e37e00;
 }
 
 .table{
     background: url("../images/table-tennis.jpg") no-repeat center center;
+    background-size: 100% 100%;
     float: right;
     box-shadow: -5px 5px 5px #e37e00;
 }
