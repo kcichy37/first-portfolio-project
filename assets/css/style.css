@@ -322,12 +322,20 @@ footer{
 
 #sports{
     width: 100%;
-    height: 700px;
+    height: 100%;
+    display: grid;
+    row-gap: 50px;
 }
 
-.sportsbox{
-    border:2px solid black;
-    height:300px;
-    width: 300px;
-    padding: 100px;
+.sportbox{
+    height: 300px;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.9);
+    
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 75px;
 }
