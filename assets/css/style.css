@@ -480,7 +480,7 @@ footer{
      font-size: 90%;
  }
 
- #fullname, #email, #query{
+ #fullname, #email, #query, #choosesport{
      width: 30%;
      height: 24px;
      border-radius: 5px;
@@ -507,3 +507,18 @@ footer{
     text-transform: uppercase; 
  }
 
+/* booking page */
+
+#bookingpage{
+    width: 100%;
+    height: 50em;
+}
+
+.bookingbg{
+    width: 40%;
+     height: 700px;
+     margin: 0 auto;
+     background-color: rgba(0, 0, 0, 0.9);
+     box-shadow: 5px 5px 5px;
+     border-radius: 10%;
+}

@@ -8,5 +8,75 @@
 
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <title>Letchworth Sport Centre</title>
+    <title>Booking</title>
 </head>
+
+
+
+<body>
+    <div id="bg" title="Sport Equipment">
+        <header>
+            <h1 id="logo">Letchworth Sports Centre</h1>
+    
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="contact-us.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+    <section id="bookingpage">
+        <div class="bookingbg contactcenter">
+
+        <form method="post" action="thank-you.html"> 
+
+        <label for="fullname">Full Name</label><br>
+        <input type="text" id="fullname" name="full_name" placeholder="E.g. John Smith" required="">
+
+        <br>
+        <label for="email">Your E-mail</label><br>
+        <input type="email" id="email" name="e-mail" placeholder="E.g. Johnsmith@gmail.com" required="">
+
+        <br>
+        <label for="choosesport">Choose your booking</label><br>
+        <select id="choosesport" name="chosen_sport">
+            <option value="11-a-side Indoor Football">11-a-side Indoor Football</option>
+            <option value="11-a-side Outdoor Football">11-a-side Outdoor Football</option>
+            <option value="6-a-side Indoor Football">6-a-side Indoor Football</option>
+            <option value="6-a-side Outdoor Football">6-a-side Outdoor Football</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Badminton">Badminton</option>
+            <option value="Squash">Squash</option>
+            <option value="Tabel Tennis">Tabel Tennis</option>
+        </select>
+        </form>
+        </div>
+    </section>
+    </div>
+
+    <footer>
+        <div class="footerbox follow">
+            <h3>Follow us:</h3>
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footerbox contact">
+            <h3>Contact us:</h3>
+            <p>Tel: +44 (0)7375782398<br>E-mail: LSCherts@gmail.com
+            </p>
+        </div>
+
+        <div class="footerbox address">
+            <h3>Address:</h3>
+            <p>The County Ground <br> Letchworth Garden City <br> SG6 2EN</p>
+        </div>
+
+    </footer>
+</body>
