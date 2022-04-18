@@ -30,18 +30,18 @@
 
     <section id="bookingpage">
         <div class="bookingbg contactcenter">
-
+    
         <form method="post" action="thank-you.html"> 
 
-        <label for="fullname">Full Name</label><br>
-        <input type="text" id="fullname" name="full_name" placeholder="E.g. John Smith" required="">
+        <label for="fullname">Full Name <b>*</b></label><br>
+        <input type="text" id="fullname" name="full_name" placeholder=" E.g. John Smith" required="">
 
         <br>
-        <label for="email">Your E-mail</label><br>
-        <input type="email" id="email" name="e-mail" placeholder="E.g. Johnsmith@gmail.com" required="">
+        <label for="email">Your E-mail <b>*</b></label><br>
+        <input type="email" id="email" name="e-mail" placeholder=" E.g. Johnsmith@gmail.com" required="">
 
         <br>
-        <label for="choosesport">Choose your booking</label><br>
+        <label for="choosesport">Choose your booking <b>*</b></label><br>
         <select id="choosesport" name="chosen_sport">
             <option value="11-a-side Indoor Football">11-a-side Indoor Football</option>
             <option value="11-a-side Outdoor Football">11-a-side Outdoor Football</option>
@@ -50,8 +50,20 @@
             <option value="Tennis">Tennis</option>
             <option value="Badminton">Badminton</option>
             <option value="Squash">Squash</option>
-            <option value="Tabel Tennis">Tabel Tennis</option>
+            <option value="Table Tennis">Table Tennis</option>
         </select>
+        <br>
+        <label for="bookingdate">Select your date <b>*</b></label><br>
+        <input type="date" id="bookingdate" name="booking_day" required>
+        <br>
+        <label for="bookingtime">Select your time <b>*</b></label><br>
+        <input type="time" id="bookingtime" name="booking_time" required>
+
+        <br>
+        <input type="submit" value="Submit!" id="Submit">
+
+
+        </div>
         </form>
         </div>
     </section>
@@ -79,4 +91,6 @@
         </div>
 
     </footer>
+
+    <script src="https://kit.fontawesome.com/3ef777943d.js" crossorigin="anonymous"></script>
 </body>

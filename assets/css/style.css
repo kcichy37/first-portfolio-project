@@ -438,7 +438,7 @@ footer{
     margin: 0 auto;
 }
 
- .contactbg{
+.contactbg{
      width: 40%;
      height: 1275px;
      margin: 0 auto;
@@ -451,7 +451,7 @@ footer{
 
  /* contact us opening times */
 
- .contactcenter{
+.contactcenter{
     font-size: 125%;
     position: relative;
     color: white;
@@ -459,16 +459,21 @@ footer{
     text-align: center;
  }
 
- #information h2{
+#information h2{
      text-decoration: underline;
  }
 
- .opening, .address{
+.opening, .mainaddress{
      margin-top: 30px;
  }
 
+ .mainaddress{
+    padding-right: 50px;
+    padding-left: 50px;
+ }
+
  /* iframes */
- .maps{
+.maps{
     width: 100%;
     height: 300px;
  }
@@ -480,7 +485,7 @@ footer{
      font-size: 90%;
  }
 
- #fullname, #email, #query, #choosesport{
+ #fullname, #email, #query, #choosesport, #bookingdate, #bookingtime{
      width: 30%;
      height: 24px;
      border-radius: 5px;
@@ -511,14 +516,25 @@ footer{
 
 #bookingpage{
     width: 100%;
-    height: 50em;
+    height: 599px;
 }
 
 .bookingbg{
     width: 40%;
-     height: 700px;
-     margin: 0 auto;
-     background-color: rgba(0, 0, 0, 0.9);
-     box-shadow: 5px 5px 5px;
-     border-radius: 10%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10%;
+    top: 0px;
+    padding-top: 50px;
+}
+
+#bookingdate, #bookingtime{
+    text-align: center;
+    font-size: 125%;
+}
+
+b{
+    color: red;
+    font-size: 80%;
 }
