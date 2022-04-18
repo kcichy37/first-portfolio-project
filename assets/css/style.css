@@ -246,10 +246,6 @@ nav{
     align-items: center;
 }
 
-.center th{
-    text-decoration: underline;
-}
-
 /* video */
 
 #vid{
@@ -417,7 +413,7 @@ footer{
     transition: transform .2s;
  }
 
- /* Contact us page */
+ /* Contact us tab */
 
  #information{
      width: 100%;
@@ -435,7 +431,7 @@ footer{
     border-radius: 50%;
     margin: 0 auto;
     border: 2px solid;
-    box-shadow: 5px 10px 5px #e37e00;
+    box-shadow: 2px 6px 2px #e37e00;
 }
 
 #lsc{
@@ -445,7 +441,7 @@ footer{
 
  .contactbg{
      width: 40%;
-     height: 700px;
+     height: 1000px;
      margin: 0 auto;
      margin-top: -200px;
      background-color: rgba(0, 0, 0, 0.9);
@@ -453,3 +449,22 @@ footer{
      border-radius: 10%;
     
  }
+
+ /* contact us opening times */
+
+ .contactcenter{
+    font-size: 125%;
+    position: relative;
+    color: white;
+    top: 220px;
+    text-align: center;
+ }
+
+ #information h2{
+     text-decoration: underline;
+ }
+
+ .opening, .address{
+     margin-top: 30px;
+ }
+
