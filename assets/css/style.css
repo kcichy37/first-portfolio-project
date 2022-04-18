@@ -417,8 +417,7 @@ footer{
 
  #information{
      width: 100%;
-     height: 1200px;
-     padding-bottom: 150px;
+     height: 1250px;
  }
 
 /* LSC image */
@@ -466,5 +465,45 @@ footer{
 
  .opening, .address{
      margin-top: 30px;
+ }
+
+ /* iframes */
+ .maps{
+    width: 100%;
+    height: 300px;
+ }
+
+ /* form */
+
+ .emailform{
+     padding-top: 10px;
+     font-size: 90%;
+ }
+
+ #fullname, #email, #query{
+     width: 30%;
+     height: 24px;
+     border-radius: 5px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+
+ }
+
+ #query{
+    width: 538px;
+    height: 106px;
+ }
+
+ #Submit{
+    width:15%;
+    height:30px;
+    background-color: #e37e00; 
+    font-size: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase; 
  }
 
