@@ -343,9 +343,18 @@ footer{
 
 .sportboxtext{
     color: white;
-    margin-top: -265px;
-    margin-right: 20px;
     text-decoration: underline;
+    padding-top: 5px;
+}
+
+.squash h2{
+    position: absolute;
+    left: 500px;
+    right: -50px;
+    top: 1275px;
+    color: white;
+    text-decoration: underline;
+    padding-top: 5px;
 }
 
 .sportimg{
