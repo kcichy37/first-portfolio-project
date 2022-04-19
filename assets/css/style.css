@@ -408,25 +408,27 @@ footer{
 
 /* Facility booking button*/
 
+#form{
+    height: 0px;
+    width: 0px;
+    display: contents;
+}
+
 .facilitybooking{
-    width:165px;
-    height:65px;
+    width:150px;
+    height:50px;
     background-color: #e37e00; 
-    font-size: 150%;
+    font-size: 125%;
     border: 2px solid black;
     border-radius: 15px;
     box-shadow: 10px 10px 10px;
     font-family: 'Merriweather', sans-serif;
     font-weight: bold;
     text-transform: uppercase; 
-    margin-top: 110px;
-    display: inline;
+    margin-right: 5px;
+    margin-top: 75px;
 }
 
-.fbposition{
-    position: absolute;
-    bottom: 300px;
-}
 .facilitybooking:hover{
     transform: scale(1.2);
     transition: transform .2s;
@@ -628,13 +630,20 @@ b{
         margin-top: -70px;
     }
 
-    /*.facilitybooking{
-        width: 150px;
-        height: 50px;
-        font-size: 125%;
-        margin-top: 5%;
-    }*/
+}
 
+@media screen and (max-width: 1255px){
+
+    .facilitybooking{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1118px){
+
+    .facilitybooking{
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 980px){
@@ -643,10 +652,6 @@ b{
         padding-left: 25px;
         padding-right: 25px;
     }
-
-    /*.facilitybooking{
-        margin-top: 2%;
-    }*/
 
     .contactbg{
         padding-bottom: 25px;
@@ -680,7 +685,12 @@ b{
     }
 
     #aboutbg{
-        height: 450px;
+        height: 450px; 
+    }
+
+    #lsc{
+        width: 450px;
+        height: 250px;
     }
 }
 
@@ -699,22 +709,12 @@ b{
         left: 27.5%;
     }
 
-    /*.facilitybooking{
-        margin-top: 6px;
-    }*/
-
     .leftp, .rightp{
         font-size: 100%;
     }
-    
-}
 
-@media screen and (max-width: 835px){
-
-    /*.facilitybooking{
-        margin-top: 7px;
-        width: 125px;
-        height: 45px;
-        font-size: 100%;
-    }*/
+    #fullname, #email, #choosesport, #bookigdate, #bookingtime{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
