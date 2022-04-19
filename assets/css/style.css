@@ -222,9 +222,7 @@ nav{
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 5px;
-    float: right;
-    margin-top: 0;
-    right: 800px;
+    margin: 0 auto;
     top: 75px;
  }
 
@@ -253,9 +251,9 @@ nav{
     border: 4px solid black;
     box-shadow: 5px 5px 5px;
     right: 45%;
-    bottom: 50px;
     position: absolute;
     border-radius: 10px;
+    top: 25px;
 }
 
 /* footer */
@@ -277,14 +275,13 @@ footer{
 
 .social-media{
     display: flex;
-    margin-left: 35px;
     margin-top: 10px;
   }
 
 .social-media li{
     list-style-type: none;
-    margin-left: 115px;
     line-height: 10px;
+    margin: 0 auto;
 }
 
 .social-media a{
@@ -322,8 +319,8 @@ footer{
     font-family: 'Merriweather', sans-serif;
     
     margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 75px;
+    margin-top: 25px;
 }
 
 .sportboxtext{
@@ -392,6 +389,23 @@ footer{
     box-shadow: -5px 5px 5px #e37e00;
 }
 
+.leftp, .rightp{
+    padding-top: 10px;
+    color: white;
+    font-family: 'roboto slab', sans-serif;
+    font-size: 110%;
+}
+
+.leftp{
+    padding-right: 40%;
+    padding-left: 10px;
+}
+
+.rightp{
+    padding-right: 10px;
+    padding-left: 40%;
+  }
+
 /* Facility booking button*/
 
 .facilitybooking{
@@ -405,9 +419,14 @@ footer{
     font-family: 'Merriweather', sans-serif;
     font-weight: bold;
     text-transform: uppercase; 
-    margin-top: 325px;
+    margin-top: 110px;
+    display: inline;
 }
 
+.fbposition{
+    position: absolute;
+    bottom: 300px;
+}
 .facilitybooking:hover{
     transform: scale(1.2);
     transition: transform .2s;
@@ -416,8 +435,7 @@ footer{
  /* Contact us tab */
 
  #information{
-     width: 100%;
-     height: 1500px;
+    width: 100%;
  }
 
 /* LSC image */
@@ -446,9 +464,10 @@ footer{
      background-color: rgba(0, 0, 0, 0.9);
      box-shadow: 5px 5px 5px;
      border-radius: 10%;
+     padding-right: 15px;
+     padding-left: 15px;
+    }
     
- }
-
  /* contact us opening times */
 
 .contactcenter{
@@ -468,8 +487,8 @@ footer{
  }
 
  .mainaddress{
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
  }
 
  /* iframes */
@@ -486,7 +505,7 @@ footer{
  }
 
  #fullname, #email, #query, #choosesport, #bookingdate, #bookingtime{
-     width: 30%;
+     width: 50%;
      height: 24px;
      border-radius: 5px;
      margin-top: 5px;
@@ -500,8 +519,8 @@ footer{
  }
 
  #Submit{
-    width:15%;
-    height:30px;
+    width: 40%;
+    height: 30px;
     background-color: #e37e00; 
     font-size: 100%;
     border: 2px solid black;
@@ -520,7 +539,7 @@ footer{
 }
 
 .bookingbg{
-    width: 40%;
+    width: 30%;
     height: 400px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.9);
@@ -537,4 +556,165 @@ footer{
 b{
     color: red;
     font-size: 80%;
+}
+
+#fullname, #email, #choosesport{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1470px) {
+
+    .offer-text-box{
+        left: 60%;
+    }
+
+    #lsc{
+        width: 600px;
+        height: 350px;
+    }
+ 
+}
+
+@media screen and (max-width: 1410px){
+
+    #menu li{
+        width: 31%;
+    }
+}
+
+@media screen and (max-width: 1310px){
+
+    #lsc{
+        width: 500px;
+        height: 300px;
+    }
+
+    #about-us{
+        height:650px;
+    }
+
+    #aboutbg{
+        height: 550px;
+    }
+
+    .about-text-box{
+        padding-bottom: 255px;
+    }
+
+    .about-text-box p{
+        padding-top: 10px;
+    }
+
+    #what-we-offer{
+        height: 500px;
+    }
+
+    .offer-text-box{
+        padding: 50px;
+    }
+
+    .book-button{
+        width: 150px;
+        height: 50px;
+        top: 378px;
+        left: 125px;
+        font-size: 125%;
+    }
+
+    .text{
+        margin-top: -70px;
+    }
+
+    /*.facilitybooking{
+        width: 150px;
+        height: 50px;
+        font-size: 125%;
+        margin-top: 5%;
+    }*/
+
+}
+
+@media screen and (max-width: 980px){
+
+    .bookingbg{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    /*.facilitybooking{
+        margin-top: 2%;
+    }*/
+
+    .contactbg{
+        padding-bottom: 25px;
+    }
+
+    .offer-text-box{
+        left: 57%;
+    }
+
+    .about-text-box{
+        padding-bottom: 110px;
+        padding-top: 5px;
+        left: 50px;
+        padding-right: 25px;
+        padding-left: 25px;
+        top: 50px;
+    }
+
+    .about-text-box p{
+        padding-left: 0px;
+        padding-top: 2.5px;
+        font-size: 90%
+    }
+
+    .about-text-box h2{
+        padding-left: 0px;
+    }
+
+    #about-us{
+        height: 550px;
+    }
+
+    #aboutbg{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 915px){
+
+    #what-we-offer{
+        height: 800px;
+    }
+
+    #vid{
+        top: 500px;
+        left: 219px;
+    }
+
+    .offer-text-box{
+        left: 27.5%;
+    }
+
+    /*.facilitybooking{
+        margin-top: 6px;
+    }*/
+
+    .leftp, .rightp{
+        font-size: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 835px){
+
+    /*.facilitybooking{
+        margin-top: 7px;
+        width: 125px;
+        height: 45px;
+        font-size: 100%;
+    }*/
 }
