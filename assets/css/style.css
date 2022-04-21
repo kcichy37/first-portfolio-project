@@ -754,7 +754,7 @@ b{
         top: 40px;
     }
 
-    .footercontact, .address, .follow{
+    .footer-contact, .address, .follow{
         font-size: 70%;
     }
 
@@ -781,24 +781,24 @@ b{
         font-size: 60%;
       }
 
-      .facilitybooking{
+    .facilitybooking{
           width: 110px;
           font-size: 95%;
       }
 
-      #lsc{
+    #lsc{
           width: 400px;
       }
 
-      .contactbg{
+    .contactbg{
           width: 70%;
       }
 
-      #fullname, #email, #query, #choosesport, #bookingdate, #bookingtime{
+    #fullname, #email, #query, #choosesport, #bookingdate, #bookingtime{
           width: 70%;
       }
 
-      .bookingbg{
+    .bookingbg{
           width: 70%;
       }
 }
