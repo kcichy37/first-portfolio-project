@@ -293,7 +293,7 @@ footer{
     color:#e37e00;
 }
 
-.contact, .address, .follow{
+.footer-contact, .address, .follow{
     margin-top: 13px;
     font-size: 115%;
     letter-spacing: 2px;
@@ -394,6 +394,7 @@ footer{
     color: white;
     font-family: 'roboto slab', sans-serif;
     font-size: 110%;
+    margin-bottom: 25px;
 }
 
 .leftp{
@@ -425,8 +426,7 @@ footer{
     font-family: 'Merriweather', sans-serif;
     font-weight: bold;
     text-transform: uppercase; 
-    margin-right: 5px;
-    margin-top: 75px;
+    margin: auto;
 }
 
 .facilitybooking:hover{
@@ -515,9 +515,9 @@ footer{
  }
 
  #query{
-    width: 50%;
     height: 106px;
     resize: none;
+    padding: 0 5px 0 5px;
  }
 
  #Submit{
@@ -537,7 +537,7 @@ footer{
 
 #bookingpage{
     width: 100%;
-    height: 599px;
+    height: 650px;
 }
 
 .bookingbg{
@@ -630,23 +630,13 @@ b{
         margin-top: -70px;
     }
 
-}
-
-@media screen and (max-width: 1255px){
-
-    .facilitybooking{
-        margin-top: 50px;
+    .leftp .rightp{
+        margin-bottom: 0;
     }
+
 }
 
-@media screen and (max-width: 1118px){
-
-    .facilitybooking{
-        margin-top: 30px;
-    }
-}
-
-@media screen and (max-width: 980px){
+@media screen and (max-width: 985px){
 
     .bookingbg{
         padding-left: 25px;
@@ -692,6 +682,11 @@ b{
         width: 450px;
         height: 250px;
     }
+
+    .leftp, .rightp{
+       font-size: 90%;
+   }
+
 }
 
 @media screen and (max-width: 915px){
@@ -709,12 +704,101 @@ b{
         left: 27.5%;
     }
 
-    .leftp, .rightp{
-        font-size: 100%;
-    }
-
     #fullname, #email, #choosesport, #bookigdate, #bookingtime{
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .contactcenter{
+        font-size: 116%;
+    }
+
+    .contact, .address, .follow{
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 430px){
+
+    /* Home page */
+
+    #menu{
+        font-size: 120%;
+    }
+
+    #logo{
+        font-size: 300%;
+        margin-top: 45px;
+    }
+
+    #aboutbg{
+        background-size: 100%;
+        margin-top: 100px;
+    }
+
+    .about-text-box{
+        left: 40px;
+        top: 1px;
+    }
+
+    .offer-text-box{
+        left: 2.5%;
+    }
+
+    #vid{
+        width: 90%;
+        left: 15px;
+    }
+
+    .opening-text-box{
+        top: 40px;
+    }
+
+    .footercontact, .address, .follow{
+        font-size: 70%;
+    }
+
+    /* Facility page */
+
+    .sportimg{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        bottom: 80px;
+        left: 60px;
+        float: none;
+    }
+
+    .sportboxtext{
+        font-size: 125%;
+        margin-top: -70px
+    }
+
+    .leftp, .rightp{
+        margin-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 60%;
+      }
+
+      .facilitybooking{
+          width: 110px;
+          font-size: 95%;
+      }
+
+      #lsc{
+          width: 400px;
+      }
+
+      .contactbg{
+          width: 70%;
+      }
+
+      #fullname, #email, #query, #choosesport, #bookingdate, #bookingtime{
+          width: 70%;
+      }
+
+      .bookingbg{
+          width: 70%;
+      }
 }
