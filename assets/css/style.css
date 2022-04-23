@@ -648,7 +648,12 @@ b{
     }
 
     .offer-text-box{
-        left: 57%;
+        position: relative;
+        margin: 0 auto;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        top: 0px;
     }
 
     .about-text-box{
@@ -687,21 +692,20 @@ b{
        font-size: 90%;
    }
 
-}
-
-@media screen and (max-width: 915px){
-
     #what-we-offer{
         height: 800px;
     }
 
     #vid{
-        top: 500px;
-        left: 219px;
-    }
-
-    .offer-text-box{
-        left: 27.5%;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        top: 0px;
+        display: block;
+        margin: auto;
+        margin-top: 450px;
+        height: auto;
+        width: 500px;
     }
 
     #fullname, #email, #choosesport, #bookigdate, #bookingtime{
@@ -718,17 +722,27 @@ b{
     }
 }
 
-@media screen and (max-width: 430px){
-
-    /* Home page */
-
-    #menu{
-        font-size: 120%;
-    }
+@media screen and (max-width: 710px){
 
     #logo{
         font-size: 300%;
-        margin-top: 45px;
+    }
+
+    .sportbox{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 530px){
+
+    /* Home page */
+
+    #logo{
+        font-size:  250%;
+    }
+
+    #menu{
+        font-size: 120%;
     }
 
     #aboutbg{
@@ -736,18 +750,32 @@ b{
         margin-top: 100px;
     }
 
+    #about-us{
+        margin-top: 0px;
+    }
+
     .about-text-box{
-        left: 40px;
-        top: 1px;
+        position: relative;
+        margin: 0 auto;
+        right: 0px;
+        left: 0px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        bottom: 550px;
+        top: -500px;
+        font-size: 80%;
     }
 
     .offer-text-box{
-        left: 2.5%;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 90%;
     }
 
-    #vid{
+      #vid{
         width: 90%;
-        left: 15px;
+        height: auto;
     }
 
     .opening-text-box{
@@ -756,6 +784,17 @@ b{
 
     .footer-contact, .address, .follow{
         font-size: 70%;
+    }
+
+    .book-button{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 0px;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        margin-top: 10px;
     }
 
     /* Facility page */
