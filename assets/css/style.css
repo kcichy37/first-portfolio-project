@@ -671,8 +671,9 @@ b{
         font-size: 90%
     }
 
-    .about-text-box h2{
+    .sportboxtext{
         padding-left: 0px;
+        font-size: 135%;
     }
 
     #about-us{
@@ -800,24 +801,25 @@ b{
     /* Facility page */
 
     .sportimg{
-        width: 250px;
-        height: 250px;
-        position: relative;
-        bottom: 80px;
-        left: 60px;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        bottom: 0px;
+        top: -100px;
         float: none;
+        position: relative;
+        margin: 0 auto;
     }
 
     .sportboxtext{
-        font-size: 125%;
-        margin-top: -70px
+        margin-top: -90px
     }
 
     .leftp, .rightp{
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         padding-left: 5px;
         padding-right: 5px;
-        font-size: 60%;
+        font-size: 75%;
       }
 
     .facilitybooking{
