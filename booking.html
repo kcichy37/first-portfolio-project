@@ -14,61 +14,63 @@
 
 
 <body>
-    <div id="bg" title="Sport Equipment">
-        <header>
-            <h1 id="logo">Letchworth Sports Centre</h1>
-    
-            <nav id="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="facilities.html">Facilities</a></li>
-                    <li><a href="contact-us.html">Contact us</a></li>
-                </ul>
-            </nav>
-        </header>
 
+<!--Page background-->
+<div id="bg" title="Sport Equipment">
 
+    <!--Logo and Nav bar-->
+    <header>
+        <h1 id="logo">Letchworth Sports Centre</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Booking-->
     <section id="bookingpage">
-        <div class="bookingbg contactcenter">
-    
-        <form method="get" action="thankyouforbooking.html"> 
+        <div class="bookingbg contact-center">
+            <form method="get" action="thankyouforbooking.html"> 
+                <label for="fullname">Full Name <b>*</b></label><br>
+                <input type="text" id="fullname" name="full_name" placeholder="E.g, John Smith" required="">
+                
+                <br>
+                <label for="email">Your E-mail <b>*</b></label><br>
+                <input type="email" id="email" name="e-mail" placeholder="E.g, Johns@gmail.com" required="">
 
-        <label for="fullname">Full Name <b>*</b></label><br>
-        <input type="text" id="fullname" name="full_name" placeholder="E.g, John Smith" required="">
+                <br>
+                <label for="choosesport">Choose your booking <b>*</b></label><br>
+                <select id="choosesport" name="chosen_sport">
+                <option value="11-a-side Indoor Football">11-a-side Indoor Football</option>
+                <option value="11-a-side Outdoor Football">11-a-side Outdoor Football</option>
+                <option value="6-a-side Indoor Football">6-a-side Indoor Football</option>
+                <option value="6-a-side Outdoor Football">6-a-side Outdoor Football</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Badminton">Badminton</option>
+                <option value="Squash">Squash</option>
+                <option value="Table Tennis">Table Tennis</option>
+                </select>
+                
+                <br>
+                <label for="bookingdate">Select your date <b>*</b></label><br>
+                <input type="date" id="bookingdate" name="booking_day" required>
+                
+                <br>
+                <label for="bookingtime">Select your time <b>*</b></label><br>
+                <input type="time" id="bookingtime" name="booking_time" required>
 
-        <br>
-        <label for="email">Your E-mail <b>*</b></label><br>
-        <input type="email" id="email" name="e-mail" placeholder="E.g, Johns@gmail.com" required="">
-
-        <br>
-        <label for="choosesport">Choose your booking <b>*</b></label><br>
-        <select id="choosesport" name="chosen_sport">
-            <option value="11-a-side Indoor Football">11-a-side Indoor Football</option>
-            <option value="11-a-side Outdoor Football">11-a-side Outdoor Football</option>
-            <option value="6-a-side Indoor Football">6-a-side Indoor Football</option>
-            <option value="6-a-side Outdoor Football">6-a-side Outdoor Football</option>
-            <option value="Tennis">Tennis</option>
-            <option value="Badminton">Badminton</option>
-            <option value="Squash">Squash</option>
-            <option value="Table Tennis">Table Tennis</option>
-        </select>
-        <br>
-        <label for="bookingdate">Select your date <b>*</b></label><br>
-        <input type="date" id="bookingdate" name="booking_day" required>
-        <br>
-        <label for="bookingtime">Select your time <b>*</b></label><br>
-        <input type="time" id="bookingtime" name="booking_time" required>
-
-        <br>
-        <input type="submit" value=" Submit! " id="Submit">
-
-
-        </div>
-        </form>
+                <br>
+                <input type="submit" value=" Submit! " id="Submit">
+            </form>
         </div>
     </section>
-    </div>
 
+</div>
+
+    <!--Footer-->
     <footer>
         <div class="footerbox follow">
             <h3>Follow us:</h3>
@@ -81,16 +83,17 @@
 
         <div class="footerbox footer-contact">
             <h3>Contact us:</h3>
-            <p>Tel: +44 (0)7375782398<br>E-mail: LSCherts@gmail.com
-            </p>
+            <p>Tel: +44 (0)7375782398<br>E-mail: LSCherts@gmail.com</p>
+            <br>
+            <p>*For Educational Purposes Only*</p>
         </div>
 
         <div class="footerbox address">
             <h3>Address:</h3>
             <p>The County Ground <br> Letchworth <br> SG6 2EN</p>
         </div>
-
     </footer>
 
+    <!--Icons link-->
     <script src="https://kit.fontawesome.com/3ef777943d.js" crossorigin="anonymous"></script>
 </body>
