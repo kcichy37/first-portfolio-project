@@ -70,4 +70,28 @@ The website needs to be easy to navigate so that any customer will be able to un
 
 ![Address and Google Maps iframes](/assets/readme-images/address.png "Address and Google Maps iframes")
 
+### 4. Booking page
+#### Booking
+- The booking page is just a form for user to fill out if they want to book a facility via Online booking, it consists of 5 input forms, each is a required form to submit the booking. 
+- Input text for users full name and input e-mail for user e-mail, both required to proceed with booking.
+- Theres also a select element which allows the user to choose what facility they would like to book.
+- Lastly the two inputs are the date and time input, where users are able to select their desired day and time of their booking. 
 
+![Booking Form](/assets/readme-images/booking.png "Booking Form")
+
+## Future Features
+- I would like to add to the webpage a log in for accounts so that reoccurring customers are able to just log in with all their detail saved, including payment information, enabling to book by just choosing what they want without filling other information. 
+- Membership deals, for customers that are reoccuring users of our facilities. For a monthly fee they will be able to use certain facilities under the Terms & Conditions that membership would have. E.g, for £30 a month you can use the Table tennis facility you have 8 hours to use.
+
+## Wireframes/Planning
+I have used Wireframes to construct a very rough idea of the website. While building the website I have changed a lot compared to the initial ideas. 
+
+- [Home page idea](./assets/readme-images/home-idea.png). While developing the website, I decided that the home page will have 3 sections "About us", "What we offer" and "opening time" instead of "About us" "Opening times" and a "Google maps `iframes`". With this decision also came a completley different layout where each section has it's own area and different decorative forms, one a background picture and the other a video. I also moved the `iframes` to contact page. 
+
+- [Facilities page idea](./assets/readme-images/facilities-idea.png) The first idea for the Facilities page was that it will have 6 boxes describing each sports and one book button at the bottom. I ended up minimising the sport boxes to 4 with 5 sports as 1 sport box includes two sports. Also changed the layout as the sport boxes are below each other, where in the initial idea it was opposite each other and each box has it's own booking button
+
+- [Contact Us page idea](./assets/readme-images/contact-us-idea.png) The Contact us page is where I stuck to the idea the most just changed the layout as I included the contact details, opening hours and address together rather than seperate like on the idea. 
+
+## Testing
+### 1. Code Validation 
+I have validated the code in the 
