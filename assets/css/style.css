@@ -394,7 +394,7 @@ footer{
     padding-top: 10px;
     color: white;
     font-family: 'roboto slab', sans-serif;
-    font-size: 110%;
+    font-size: 100%;
     margin-bottom: 25px;
     padding-right: 10px;
     padding-left: 40%;
@@ -581,6 +581,11 @@ b{
     #menu li{
         width: 31%;
     }
+
+    .facilitybooking{
+        width: 110px;
+        font-size: 95%;
+    }
 }
 
 @media screen and (max-width: 1310px){
@@ -626,10 +631,6 @@ b{
         margin-top: -70px;
     }
 
-    .leftp .rightp{
-        margin-bottom: 0;
-    }
-
 }
 
 @media screen and (max-width: 985px){
@@ -669,7 +670,7 @@ b{
 
     .sportboxtext{
         padding-left: 0px;
-        font-size: 135%;
+        font-size: 120%;
     }
 
     #about-us{
@@ -684,10 +685,6 @@ b{
         width: 450px;
         height: 250px;
     }
-
-    .leftp, .rightp{
-       font-size: 90%;
-   }
 
     #what-we-offer{
         height: 800px;
@@ -717,16 +714,18 @@ b{
     .footer-contact, .address, .follow{
         font-size: 100%;
     }
-}
 
-@media screen and (max-width: 710px){
-
-    #logo{
-        font-size: 300%;
+    .facilitybooking{
+        width: 110px;
+        font-size: 95%;
     }
 
-    .sportbox{
-        width: 85%;
+    #logo{
+        font-size: 350%;
+    }
+
+    .bookingdetails{
+        font-size: 95%;
     }
 }
 
@@ -810,18 +809,6 @@ b{
     .sportboxtext{
         margin-top: -90px
     }
-
-    .leftp, .rightp{
-        margin-bottom: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
-        font-size: 75%;
-      }
-
-    .facilitybooking{
-          width: 110px;
-          font-size: 95%;
-      }
 
     #lsc{
           width: 400px;
