@@ -596,6 +596,10 @@ b{
 /*Media Query for 1310px and below*/
 @media screen and (max-width: 1310px){
 
+    #logo{
+        font-size: 450%;
+    }
+
     #lsc{
         width: 500px;
         height: 300px;
