@@ -727,6 +727,11 @@ b{
     .bookingdetails{
         font-size: 95%;
     }
+
+    .sportbox{
+        padding-bottom: 150px;
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 530px){
@@ -807,22 +812,45 @@ b{
     }
 
     .sportboxtext{
-        margin-top: -90px
+        margin-top: -90px;
     }
 
+    .bookingdetails{
+        padding-left: 10px;
+        position: absolute;
+        padding-right: 0px;
+        margin-right: 70px;
+    }
+
+    .facilitybooking{
+        margin-top: 300px;
+        margin-right: 145px;
+
+    }
+
+    .sportbox{
+        margin-bottom: 80px;
+        height: max-content;
+        padding-bottom: 0px;
+        font-size: 95%;
+    }
+
+    /* contact us tab */
+
     #lsc{
-          width: 400px;
+        width: 90%;
       }
 
     .contactbg{
-          width: 70%;
+        width: 70%;
+        font-size: 90%;
       }
 
     #fullname, #email, #query, #choosesport, #bookingdate, #bookingtime{
-          width: 70%;
+        width: 70%;
       }
 
     .bookingbg{
-          width: 70%;
+        width: 70%;
       }
 }
