@@ -380,7 +380,7 @@ footer{
 
 
 /* Facility booking button*/
-#form{
+.form{
     height: 0px;
     width: 0px;
     display: contents;
