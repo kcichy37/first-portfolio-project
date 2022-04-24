@@ -561,6 +561,46 @@ b{
     padding-right: 5px;
 }
 
+/* thank you for booking */
+
+#thankyou{
+    height:600px;
+}
+
+#checkmark{
+    background: url(../images/checkmark.png) no-repeat center center;
+    background-size: 60% 60%;
+}
+
+.thankyoubox{
+    height: fit-content;
+    width: 90%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.9);
+    border: 5px solid black;
+    font-family: 'Merriweather', sans-serif;
+    
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+    position: relative;
+    top: 100px;
+
+    font-size: 200%;
+    color: white;
+}
+
+.thankyoubox h2{
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+
+
+
 /* Media queries */
 
 @media screen and (max-width: 1470px) {
@@ -668,6 +708,11 @@ b{
         font-size: 90%
     }
 
+    .about-text-box h2{
+        padding-left: 0px;
+    }
+
+
     .sportboxtext{
         padding-left: 0px;
         font-size: 120%;
@@ -732,6 +777,11 @@ b{
         padding-bottom: 150px;
         margin-bottom: 50px;
     }
+
+    .thankyoubox{
+        font-size: 180%;
+        top: 50px;
+    }
 }
 
 @media screen and (max-width: 530px){
@@ -784,7 +834,7 @@ b{
     }
 
     .footer-contact, .address, .follow{
-        font-size: 70%;
+        font-size: 65%;
     }
 
     .book-button{
@@ -837,20 +887,24 @@ b{
 
     /* contact us tab */
 
-    #lsc{
-        width: 90%;
-      }
+#lsc{
+    width: 90%;
+    }
 
-    .contactbg{
-        width: 70%;
-        font-size: 90%;
-      }
+.contactbg{
+    width: 70%;
+    font-size: 90%;
+    }
 
-    #fullname, #email, #query, #choosesport, #bookingdate, #bookingtime{
-        width: 70%;
-      }
+ #fullname, #email, #query, #choosesport, #bookingdate, #bookingtime{
+    width: 70%;
+    }
 
-    .bookingbg{
-        width: 70%;
-      }
+.bookingbg{
+    width: 70%;
+    }
+
+.thankyoubox{
+    font-size: 150%;
+    }
 }
