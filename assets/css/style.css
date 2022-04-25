@@ -170,6 +170,7 @@ nav{
 
 .list-border{
     padding: 20px 0 20px 0;
+    list-style-type: none;
 }
 
 .offer-text-box a{
