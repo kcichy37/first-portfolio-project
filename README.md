@@ -94,4 +94,22 @@ I have used Wireframes to construct a very rough idea of the website. While buil
 
 ## Testing
 ### 1. Code Validation 
-I have validated the code in the 
+- HTML code has been validated in the W3C Markup Validation Service and all HTML files has came back with no errors.
+- CSS Code has been validated in the W3C CSS Validation Service and all CSS code has came back with no erros (CSS level 3 + SVG)
+- I have also used the lighthouse app on every page I have created to test for accessibility:
+    - Home page 
+
+    ![Home page accessibility test](./assets/readme-images/hometest.png "Home page accessibility test")
+    - Facilities page 
+
+    ![Facilities page accessibility test](./assets/readme-images/facilitytest.png "Fecilities page accessibility test")
+    - Contact Us page
+
+    ![Contact Us page accessibility test](./assets/readme-images/contacttest.png "Contact Us page accessibility test")
+    - Booking page 
+
+    ![Booking page accessibility test](./assets/readme-images/bookingtest.png "Booking page accessibility test")
+
+## Fixed bugs
+- First button I made was the book button on home page, I created it with `input type="submit" value"Book Now!"` and styled it to the page, however, after adding `target="_blank` attribute to the `form` the `input` button completely changed its CSS style to different colours. To resolve this, instead of using `input` I used `button`.
+- Social media icons did not want to be responsive to media queries and stayed the same size through-out changing size. Fixed by adjusting positioning of it in HTML and then setting to `display: flex;` in CSS.
