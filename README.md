@@ -123,3 +123,20 @@ I have used Wireframes to construct a very rough idea of the website. While buil
 - I confirmed the website is responsive by using the dev toolkit on Mozilla firefox, as well as, opening the website on Iphones 12/13 Pro Max and Samsung Galaxy S10 +. Looks good and works properly on most standard screen sizes.
 
 - Checked all the buttons if they work and respond accordingly by taking you to new tabs, all worked. Checked the form fields by inputting details, and each input corresponds to it's required input and will not allow to proceed unless all and right information is provided. 
+
+## Deployment
+- Site was deployed to GitHub pages. Steps for deployment are as follows:
+    - In the GitHub respitory, navigate to the Setting Tab, then to the 'Pages' tab on the left
+    - In the 'pages' tab find Source, press the dropdown menu and select 'Main' and save
+    - Once saved, the page will provide a link to the completed website.
+
+Live link can be found here - https://kcichy37.github.io/first-portfolio-project
+
+## Credit
+- Huge chunks of code has been done with the help of https://www.w3schools.com/. Helped with backgrounds, layouts and button transition. 
+- Tutorials from [Kevin Powells](https://www.youtube.com/kepowob) on YouTube.
+- Adapted form code from CI Coders Coffeehouse.
+
+## Media 
+- Majority of images used are from Google Images, for this reason "For Educational Purposes Only" has been disclosed in the footer. 
+- Some images and the video are from https://www.pexels.com/
