@@ -113,3 +113,13 @@ I have used Wireframes to construct a very rough idea of the website. While buil
 ## Fixed bugs
 - First button I made was the book button on home page, I created it with `input type="submit" value"Book Now!"` and styled it to the page, however, after adding `target="_blank` attribute to the `form` the `input` button completely changed its CSS style to different colours. To resolve this, instead of using `input` I used `button`.
 - Social media icons did not want to be responsive to media queries and stayed the same size through-out changing size. Fixed by adjusting positioning of it in HTML and then setting to `display: flex;` in CSS.
+
+## Unfixed bugs
+- iOS (IPhone) changes button font `colour` and `box-shadow` color to white, original colour is black. Can't find solution. 
+
+## Supported screens and Browsers
+- Tested the site on Mozilla Firefox, Chrome, Safari (iOS) and Android (internet). No problems relating to design or the site itself on any of these sites apart from the unfixed bug on iOS. 
+
+- I confirmed the website is responsive by using the dev toolkit on Mozilla firefox, as well as, opening the website on Iphones 12/13 Pro Max and Samsung Galaxy S10 +. Looks good and works properly on most standard screen sizes.
+
+- Checked all the buttons if they work and respond accordingly by taking you to new tabs, all worked. Checked the form fields by inputting details, and each input corresponds to it's required input and will not allow to proceed unless all and right information is provided. 
