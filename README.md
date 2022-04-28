@@ -112,7 +112,11 @@ I have used Wireframes to construct a very rough idea of the website. While buil
 
 ### 2. Page testing
  - Home Page 
-    - I've Tested the home by 
+    - On the home page the testing I have done is to check that the Navbar works, so that when I hover over it, it changes colour to orange and font colour to black, as well as, ensured that when I click the tabs, the corresponding page will open. E.g., the "Facilities" tab will open facilities.html, and the active class work leaving the tab orange with black font and a line under it showing that's the tab you are on.
+
+    ![Facilities tab](./assets/doc/readme-images/facilities-tab.png "Facilities tab") ![Facilities tab hover](./assets/doc/readme-images/facilities-tab-hover.png "Facilities tab hover") ![Facilities tab active](./assets/doc/readme-images/facilities-tab-active.png "Facilities tab active")
+    
+    - Other test that I have done on the home page is for the booking button. As the booking button has a transition I needed to make sure that when you hover over it, it will get slightly bigger as well as I made sure that when clicked the outcome will be it will take you to the booking page. 
 
 ## Fixed bugs
 - The first button I made was the book button on the home page, I created it with `input type="submit" value" Book Now!"` and styled it to the page, however, after adding the `target="_blank` attribute to the `form` the `input` button completely changed its CSS style to different colours. To resolve this, instead of using `input` I used `button`.
