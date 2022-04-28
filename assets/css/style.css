@@ -100,7 +100,7 @@ nav{
     width: 300px;
     height: 200px;
     padding: 10px 100px 300px 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #000000e6;
     top: 10px;
     left: 100px;
     position: absolute;
@@ -144,7 +144,7 @@ nav{
     width: 300px;
     height: 300px;
     padding: 100px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #000000e6;
     left: 65%;
     top: 33px;
     position: absolute;
@@ -218,7 +218,7 @@ nav{
     width: 300px;
     height: 300px;
     padding: 25px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #000000e6;
     position: relative;
     color: #000000;
     text-align: center;
@@ -313,7 +313,7 @@ footer{
     height: 300px;
     width: 75%;
     border-radius: 20px;
-    background-color: rgba(0,0,0, 0.9);
+    background-color: #000000e6;
     border: 5px solid #000000;
     box-shadow: 5px 5px 5px;
     font-family: 'Merriweather', sans-serif;
@@ -439,7 +439,7 @@ footer{
     height: 1275px;
     margin: 0 auto;
     margin-top: -200px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #000000e6;
     box-shadow: 5px 5px 5px;
     border-radius: 10%;
     padding-right: 15px;
@@ -527,7 +527,7 @@ footer{
     width: 30%;
     height: 400px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #000000e6;
     border-radius: 10%;
     top: 0px;
     padding-top: 10px;
@@ -564,7 +564,7 @@ b{
     width: 90%;
     border-radius: 20px;
     text-align: center;
-    background-color: rgba(0,0,0, 0.9);
+    background-color: #000000e6;
     border: 5px solid #000000;
     font-family: 'Merriweather', sans-serif;
     
