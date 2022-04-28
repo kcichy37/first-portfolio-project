@@ -21,7 +21,6 @@ body{
 }
 
 /* Logo and Nav*/
-
 #logo{
     font-family: 'Merriweather', sans-serif;
     font-size: 500%;
@@ -58,6 +57,7 @@ nav{
     top: 10px;
 }
 
+/*Hover action for nav bar*/
 #menu a:hover{
     background-color: #e37e00;
     color: black;
@@ -95,6 +95,7 @@ nav{
     background-size: 80% 100%;
 }
 
+/*Text box for about us*/
 .about-text-box{
     width: 300px;
     height: 200px;
@@ -109,6 +110,7 @@ nav{
     border-radius: 10px;
   }
 
+/*Text box header style*/
 .about-text-box h2{
     font-size: 200%;
     text-align: center;
@@ -137,6 +139,7 @@ nav{
     margin-top: -50px;
 }
 
+/*Text box for what we offer*/
 .offer-text-box{
     width: 300px;
     height: 300px;
@@ -171,6 +174,7 @@ nav{
 .list-border{
     padding: 20px 0 20px 0;
     list-style-type: none;
+    font-size: 110%;
 }
 
 .offer-text-box a{
@@ -209,6 +213,7 @@ nav{
     margin-top: -50px;
 }
 
+/*Text box for opening times*/
 .opening-text-box{
     width: 300px;
     height: 300px;
@@ -303,6 +308,7 @@ footer{
     row-gap: 50px;
 }
 
+/*Text box for sports on facilities page*/
 .sport-text-box{
     height: 300px;
     width: 75%;
@@ -368,6 +374,7 @@ footer{
     box-shadow: 5px 5px 5px #e37e00;
 }
 
+/*Booking details style*/
 .booking-details{
     padding-top: 10px;
     color: white;
@@ -387,6 +394,7 @@ footer{
     display: contents;
 }
 
+/* Booking button on facilities page*/
 .facility-booking{
     width: 150px;
     height: 50px;
@@ -425,6 +433,7 @@ footer{
     position: relative;
 }
 
+/*Text box for contact information*/
 .contact-text-box{
     width: 40%;
     height: 1275px;
@@ -485,6 +494,7 @@ footer{
     padding: 0 5px 0 5px;
 }
 
+/*Submit button for contact us form*/
 #Submit{
     width: 40%;
     height: 30px;
@@ -512,6 +522,7 @@ footer{
     padding-bottom: 15px;
 }
 
+/*Text box for booking form*/
 .booking-text-box{
     width: 30%;
     height: 400px;
@@ -539,14 +550,15 @@ b{
 
 /* thank you for booking */
 #thankyou{
-    height:600px;
+    height:660px;
 }
 
 #checkmark{
     background: url(../images/checkmark.png) no-repeat center center;
-    background-size: 60% 60%;
+    background-size: 50%;
 }
 
+/*Text box for thank you pages*/
 .thankyoubox{
     height: fit-content;
     width: 90%;
@@ -646,6 +658,7 @@ b{
 
     .text{
         margin-top: -70px;
+        font-size: 90%;
     }
 
     footer{
@@ -709,6 +722,7 @@ b{
         padding-right: 25px;
     }
 
+    /*video positioning for 985px and below*/
     #vid{
         left: 0px;
         bottom: 0px;
@@ -795,6 +809,7 @@ b{
         margin-top: 0px;
     }
 
+    /* About text box positioning for 530px and below*/
     .about-text-box{
         position: relative;
         margin: 0 auto;
@@ -827,6 +842,7 @@ b{
         font-size: 60%;
     }
 
+    /*Book button on home page positioning for 530px and below*/
     .book-button{
         position: relative;
         margin: 0 auto;
