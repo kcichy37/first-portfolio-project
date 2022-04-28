@@ -110,6 +110,10 @@ I have used Wireframes to construct a very rough idea of the website. While buil
 
     ![Booking page accessibility test](./assets/doc/readme-images/bookingtest.png "Booking page accessibility test")
 
+### 2. Page testing
+ - Home Page 
+    - I've Tested the home by 
+
 ## Fixed bugs
 - The first button I made was the book button on the home page, I created it with `input type="submit" value" Book Now!"` and styled it to the page, however, after adding the `target="_blank` attribute to the `form` the `input` button completely changed its CSS style to different colours. To resolve this, instead of using `input` I used `button`.
 - Social media icons did not want to be responsive to media queries and stayed the same size throughout changing sizes. Fixed by adjusting the positioning of it in HTML and then set to `display: flex;` in CSS.
