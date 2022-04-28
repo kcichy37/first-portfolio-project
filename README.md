@@ -118,6 +118,9 @@ I have used Wireframes to construct a very rough idea of the website. While buil
     
     - Other test that I have done on the home page is for the booking button. As the booking button has a transition I needed to make sure that when you hover over it, it will get slightly bigger as well as I made sure that when clicked the outcome will be it will take you to the booking page. 
 
+ - Facilities page
+    - The
+
 ## Fixed bugs
 - The first button I made was the book button on the home page, I created it with `input type="submit" value" Book Now!"` and styled it to the page, however, after adding the `target="_blank` attribute to the `form` the `input` button completely changed its CSS style to different colours. To resolve this, instead of using `input` I used `button`.
 - Social media icons did not want to be responsive to media queries and stayed the same size throughout changing sizes. Fixed by adjusting the positioning of it in HTML and then set to `display: flex;` in CSS.
