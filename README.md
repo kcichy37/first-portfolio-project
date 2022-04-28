@@ -5,7 +5,7 @@ The purpose of the sports centre would be to provide quality sport facilities th
 The website needs to be easy to navigate so that any customer will be able to understand it and book through it, as the target audience is the general public ranging from young kids accompanied by adults to older public. 
 
 
-![ResponsiveDesign](/assets/readme-images/responsiveweb.png "Screenshot of ResponsiveDesign site")
+![ResponsiveDesign](/assets/doc/readme-images/responsiveweb.png "Screenshot of ResponsiveDesign site")
 
 ## User stories
 ### 1. Home page
@@ -24,23 +24,23 @@ The website needs to be easy to navigate so that any customer will be able to un
 - The 3 buttons are in a fixed position so that as the user scrolls, they will follow, allowing for easy and quick navigation to another page if needed
 - Right beneath the 3 buttons is the sports centre's logo in 'Merriweather' font and in black colour making it stand out on the faint orange background of the pages.
 
-![Navigation buttons and Logo](/assets/readme-images/nav-and-logo.png "Navigation Buttons and Logo")
+![Navigation buttons and Logo](/assets/doc/readme-images/nav-and-logo.png "Navigation Buttons and Logo")
 
 #### The About Us and What We Offer sections
 - The About Us section has a background of the Indoor Tennis/Badminton court and to the left of it is a text box that says About us and explains to a visiting user what we are about.
-![About Us](/assets/readme-images/about-us.png "About Us")
+![About Us](/assets/doc/readme-images/about-us.png "About Us")
 
 - The What We Offer section is showcasing a video of people using the Indoor Football pitch and on the right of the video is a quick summary of what the sports centre has to offer
 - The What We Offer text box features a button that will take the user to the booking page and also the word "Facilities" is a link to the Facilities page. 
 - The Video is responsive in the sense that the user can pause it if it's distractive when navigating through the Home page. It does not contain audio.
 
-![What We Offer](/assets/readme-images/what-we-offer.png "What We Offer")
+![What We Offer](/assets/doc/readme-images/what-we-offer.png "What We Offer")
 
 #### Opening Times and The Footer
 - Located at the bottom is the additional information such as the opening times of the Sports center as it is a piece of very important information that a user might be looking for, therefore, it has been placed at the bottom next to the footer
 - The footer contains other relevant information about the whole business. This information includes the links to social media that are represented by icons, but when clicked it takes you to a relevant social media page. It also includes contact details and the address.
 
-![Opening times and The footer](/assets/readme-images/openingtimes-footer.png "Opening times and The footer")
+![Opening times and The footer](/assets/doc/readme-images/openingtimes-footer.png "Opening times and The footer")
 
 ### 2. Facilities Page
 #### Booking information
@@ -48,27 +48,27 @@ The website needs to be easy to navigate so that any customer will be able to un
 - Includes pictures of the facilities.
 - Booking button on the right of the booking description on each sports box for the user's convenience.
 
-![Booking Information](/assets/readme-images/bookinginformation.png "Booking Information")
+![Booking Information](/assets/doc/readme-images/bookinginformation.png "Booking Information")
 
 ### 3. Contact Us Page
 #### Picture
 - The picture on top of the information is the picture of the Sports Centre so the user is aware of what he can expect when going for the first time.
 
-![Letchworth Sports Centre](/assets/readme-images/lsc.png "Letchworth Sports Centre")
+![Letchworth Sports Centre](/assets/doc/readme-images/lsc.png "Letchworth Sports Centre")
 
 #### Contact Details and Opening times
 - The first visible information on the Contact Us page is the contact details which include the phone number and email, as well as, allowing the user to fill out a form that will send their query straight to the sports centre's email. This is convenient for the user as they don't have to copy the e-mail and go into their email, instead, they can just send their query straight away by filling out the form.
 - If the form is to be used and filled out, it is accompanied by a Submit button. However, the form will only submit once the user types in the required information. After pressing the submit button the user will be directed to a thank you page.
 - Next information available is the opening hours.
 
-![Contact Us details and fill out form](/assets/readme-images/contactus.png "Contact Us details and fill out form")
+![Contact Us details and fill out form](/assets/doc/readme-images/contactus.png "Contact Us details and fill out form")
 
 #### Address
 - The address is shown right below the opening times, it is the exact location of the sports centre so users have no trouble finding it.
 - There's also a little paragraph that provides the user with information about how far the location is from the train station, a link to bus routes that opens in a new tab, and that there is parking available.
 - Below is an `iframe` of the exact pin-pointed location on google maps that a user can navigate through
 
-![Address and Google Maps iframes](/assets/readme-images/address.png "Address and Google Maps iframes")
+![Address and Google Maps iframes](/assets/doc/readme-images/address.png "Address and Google Maps iframes")
 
 ### 4. Booking page
 #### Booking
@@ -77,7 +77,7 @@ The website needs to be easy to navigate so that any customer will be able to un
 - There's also a select element that allows the user to choose what facility they would like to book.
 - Lastly, the two inputs are the date and time input, where users can select their desired day and time of their booking. 
 
-![Booking Form](/assets/readme-images/booking.png "Booking Form")
+![Booking Form](/assets/doc/readme-images/booking.png "Booking Form")
 
 ## Future Features
 - I would like to add to the webpage a log-in for accounts so that reoccurring customers can just log in with all their detail saved, including payment information, enabling them to book by just choosing what they want without filling in other information. 
@@ -86,11 +86,11 @@ The website needs to be easy to navigate so that any customer will be able to un
 ## Wireframes/Planning
 I have used Wireframes to construct a very rough idea of the website. While building the website I have changed a lot compared to the initial ideas. 
 
-- [Home page idea](./assets/readme-images/home-idea.png). While developing the website, I decided that the home page will have 3 sections "About us", "What we offer" and "opening time" instead of "About us" "Opening times", and a "Google maps `iframe`". With this decision also came a completely different layout where each section has its area and different decorative forms, one a background picture and the other a video. I also moved the `iframes` to the contact page. 
+- [Home page idea](./assets/doc/readme-images/home-idea.png). While developing the website, I decided that the home page will have 3 sections "About us", "What we offer" and "opening time" instead of "About us" "Opening times", and a "Google maps `iframe`". With this decision also came a completely different layout where each section has its area and different decorative forms, one a background picture and the other a video. I also moved the `iframes` to the contact page. 
 
-- [Facilities page idea](./assets/readme-images/facilities-idea.png) The first idea for the Facilities page was that it will have 6 boxes describing each sport and one book button at the bottom. I ended up minimising the sports boxes to 4 with 5 sports as 1 sport box includes two sports. Also changed the layout as the sports boxes are below each other, wherein the initial idea was opposite each other and each box has its booking button.
+- [Facilities page idea](./assets/doc/readme-images/facilities-idea.png) The first idea for the Facilities page was that it will have 6 boxes describing each sport and one book button at the bottom. I ended up minimising the sports boxes to 4 with 5 sports as 1 sport box includes two sports. Also changed the layout as the sports boxes are below each other, wherein the initial idea was opposite each other and each box has its booking button.
 
-- [Contact Us page idea](./assets/readme-images/contact-us-idea.png) The Contact us page is where I stuck to the idea the most just changed the layout as I included the contact details, opening hours, and address together rather than separate like on the idea. 
+- [Contact Us page idea](./assets/doc/readme-images/contact-us-idea.png) The Contact us page is where I stuck to the idea the most just changed the layout as I included the contact details, opening hours, and address together rather than separate like on the idea. 
 
 ## Testing
 ### 1. Code Validation 
@@ -99,16 +99,16 @@ I have used Wireframes to construct a very rough idea of the website. While buil
 - I have also used the lighthouse app on every page I have created to test for accessibility:
     - Home page 
 
-    ![Home page accessibility test](./assets/readme-images/hometest.png "Home page accessibility test")
+    ![Home page accessibility test](./assets/doc/readme-images/hometest.png "Home page accessibility test")
     - Facilities page 
 
-    ![Facilities page accessibility test](./assets/readme-images/facilitytest.png "Fecilities page accessibility test")
+    ![Facilities page accessibility test](./assets/doc/readme-images/facilitytest.png "Fecilities page accessibility test")
     - Contact Us page
 
-    ![Contact Us page accessibility test](./assets/readme-images/contacttest.png "Contact Us page accessibility test")
+    ![Contact Us page accessibility test](./assets/doc/readme-images/contacttest.png "Contact Us page accessibility test")
     - Booking page 
 
-    ![Booking page accessibility test](./assets/readme-images/bookingtest.png "Booking page accessibility test")
+    ![Booking page accessibility test](./assets/doc/readme-images/bookingtest.png "Booking page accessibility test")
 
 ## Fixed bugs
 - The first button I made was the book button on the home page, I created it with `input type="submit" value" Book Now!"` and styled it to the page, however, after adding the `target="_blank` attribute to the `form` the `input` button completely changed its CSS style to different colours. To resolve this, instead of using `input` I used `button`.

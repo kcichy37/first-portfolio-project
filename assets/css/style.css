@@ -9,7 +9,7 @@
 body{
     font-family: 'roboto slab', sans-serif;
     font-weight: 400; 
-    background-color: rgba(227, 126, 0, 0.03)
+    background-color: #E37E00
 }
 
 #bg{
@@ -40,7 +40,7 @@ body{
     list-style-type: none;
     display: inline-block;
     width:33%;
-    background-color: black;
+    background-color: #000000;
     border-radius: 50px;
     background-attachment: fixed;
 }
@@ -60,7 +60,7 @@ nav{
 /*Hover action for nav bar*/
 #menu a:hover{
     background-color: #e37e00;
-    color: black;
+    color: #000000;
     width: 33%;
     display: inline-block;
     width: 100%;
@@ -70,13 +70,13 @@ nav{
 
 .active{
     text-decoration: 1.7px underline;
-    color: black;
+    color: #000000;
     background-color: #e37e00 !important;
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 .active a{
-    color: black !important;
+    color: #000000 !important;
 }
 
 /* About us */
@@ -104,7 +104,7 @@ nav{
     top: 10px;
     left: 100px;
     position: absolute;
-    color:black;
+    color:#000000;
     text-align: center;
     box-shadow: 5px 5px 5px;
     border-radius: 10px;
@@ -117,14 +117,14 @@ nav{
     padding-left: 70px;
     padding-bottom: 10px;
     text-decoration: underline;
-    color: white;
+    color: #f9f9f9;
     font-family: 'Merriweather', sans-serif;
 }
 
 .about-text-box p{
     padding-left: 50px;
     padding-top: 20px;
-    color: white;
+    color: #f9f9f9;
     letter-spacing: 2px;
     font-size: 110%;
     width: 100%;
@@ -148,7 +148,7 @@ nav{
     left: 65%;
     top: 33px;
     position: absolute;
-    color:black;
+    color:#000000;
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 5px;
@@ -156,13 +156,13 @@ nav{
 
 .text{
     margin-top: -100px;
-    color: white;
+    color: #f9f9f9;
 }
 
 .offer-text-box h2{
     font-size: 200%;
     text-decoration: underline;
-    color: white;
+    color: #f9f9f9;
     padding: 25px 0 25px 0;
 }
 
@@ -191,7 +191,7 @@ nav{
     left: 33%;
     bottom: 50%;
     font-size: 150%;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 15px;
     box-shadow: 10px 10px 10px;
     font-family: 'Merriweather', sans-serif;
@@ -220,7 +220,7 @@ nav{
     padding: 25px;
     background-color: rgba(0, 0, 0, 0.9);
     position: relative;
-    color: black;
+    color: #000000;
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 5px;
@@ -229,14 +229,14 @@ nav{
 }
 
 .opening-text-box table{
-    color: white;
+    color: #f9f9f9;
     font-size: 125%;
 }
 
 .opening-text-box h2{
     font-size: 200%;
     text-decoration: underline;
-    color: white;
+    color: #f9f9f9;
     padding: 5px 0 5px 0;
 }
 
@@ -249,7 +249,7 @@ nav{
 /* video */
 #vid{
     width: 50%;
-    border: 4px solid black;
+    border: 4px solid #000000;
     box-shadow: 5px 5px 5px;
     right: 45%;
     position: absolute;
@@ -261,14 +261,14 @@ nav{
 footer{
     height: 150px;
     width: 100%;
-    background-color: black;
+    background-color: #000000;
     display: flex;
 }
 
 .footerbox{
     width: 33%;
     justify-content: space-around;
-    color: white;
+    color: #f9f9f9;
     text-align: center;
     padding-top: 10px;
 }
@@ -285,7 +285,7 @@ footer{
 }
 
 .social-media a{
-    color:white;
+    color:#f9f9f9;
     font-size: 250%;
 }
 
@@ -314,7 +314,7 @@ footer{
     width: 75%;
     border-radius: 20px;
     background-color: rgba(0,0,0, 0.9);
-    border: 5px solid black;
+    border: 5px solid #000000;
     box-shadow: 5px 5px 5px;
     font-family: 'Merriweather', sans-serif;
     
@@ -325,7 +325,7 @@ footer{
 }
 
 .sportbox-text-style{
-    color: white;
+    color: #f9f9f9;
     text-decoration: underline;
     padding-top: 5px;
     overflow: hidden;
@@ -377,7 +377,7 @@ footer{
 /*Booking details style*/
 .booking-details{
     padding-top: 10px;
-    color: white;
+    color: #f9f9f9;
     font-family: 'roboto slab', sans-serif;
     font-size: 100%;
     margin-bottom: 25px;
@@ -400,7 +400,7 @@ footer{
     height: 50px;
     background-color: #e37e00;
     font-size: 125%;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 15px;
     box-shadow: 10px 10px 10px;
     font-family: 'Merriweather', sans-serif;
@@ -450,7 +450,7 @@ footer{
 .contact-center{
     font-size: 125%;
     position: relative;
-    color: white;
+    color: #f9f9f9;
     top: 220px;
     text-align: center;
 }
@@ -500,7 +500,7 @@ footer{
     height: 30px;
     background-color: #e37e00; 
     font-size: 100%;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 15px;
     box-shadow: 10px 10px 10px;
     font-family: 'Merriweather', sans-serif;
@@ -515,7 +515,7 @@ footer{
 }
 
 #bookingpage h2{
-    color: white;
+    color: #f9f9f9;
     font-size: 150%;
     text-decoration: underline;
     text-align: center;
@@ -565,7 +565,7 @@ b{
     border-radius: 20px;
     text-align: center;
     background-color: rgba(0,0,0, 0.9);
-    border: 5px solid black;
+    border: 5px solid #000000;
     font-family: 'Merriweather', sans-serif;
     
     margin: auto;
@@ -576,7 +576,7 @@ b{
     top: 100px;
 
     font-size: 200%;
-    color: white;
+    color: #f9f9f9;
 }
 
 .thankyoubox h2{
