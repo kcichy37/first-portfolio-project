@@ -150,13 +150,13 @@ I have used Wireframes to construct a very rough idea of the website. While buil
 - Checked all the buttons if they work and respond accordingly by taking you to new tabs, all worked. Checked the form fields by inputting details, and each input corresponds to its required input and will not allow proceeding unless all and right information is provided. 
 
 ## Deployment
+### Github
 - Site was deployed to GitHub pages. The steps for deployment are as follows:
     - In the GitHub repository, navigate to the Setting Tab, then to the 'Pages' tab on the left
     - In the 'pages' tab find Source, press the dropdown menu and select 'Main' and save
     - Once saved, the page will provide a link to the completed website.
 
 The live link can be found here - https://kcichy37.github.io/first-portfolio-project
-
 
 ## Credits
 - Huge chunks of code has been done with the help of https://www.w3schools.com/. Helped with backgrounds, layouts and button transition. 
